@@ -5,10 +5,11 @@ export default function Form(){
     return(
         <div>
             <h1>Resume</h1>
-            <div>
+            <form>
                 <h2>General Information</h2>
+                <label htmlFor=""></label>
                 <input type="text" id="name" name="name" placeholder="Digite seu nome"/>
-            </div>
+            </form>
         </div>
 
     )
