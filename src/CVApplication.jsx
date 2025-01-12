@@ -16,7 +16,7 @@ export default function Form(){
                         <input type="text"  id="email" name="email" placeholder="example@.com"/>
 
                         <label htmlFor="phone">Phone Number</label>
-                        <input type="number" id="phone" name="phone number" />
+                        <input type="number" id="phone" name="phone number"  placeholder="12345"/>
                     </section>
                    
                 </div>
