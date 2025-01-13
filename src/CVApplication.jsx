@@ -6,10 +6,12 @@ export default function Form(){
         e.preventDefault()
         console.log(name)
         console.log(email)
+        console.log(phone)
     }
     
     const [name, setName] = useState()
     const [email, setEmail] = useState()
+    const [phone, setPhone] = useState()
 
     return(
         <div>
@@ -27,7 +29,8 @@ export default function Form(){
                         onChange={(e) => setEmail(e.target.value)}/>
                         
                         <label htmlFor="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone number"  placeholder="12345"/>
+                        <input type="tel" id="phone" name="phone number"  placeholder="12345"
+                        onChange={(e) => setPhone(e.target.value)}/>
                     </div>
 
                     <div>
