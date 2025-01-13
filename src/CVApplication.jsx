@@ -7,17 +7,21 @@ export default function Form(){
             <h1>Resume</h1>
             <form>
                 <div>
-                    <section>
+                    <div>
                         <h2>General Information</h2>
                         <label htmlFor="name">Name</label>
                         <input type="text" id="name" name="name" placeholder="Digite seu nome"/>
                         <br />
                         <label htmlFor="email">Email</label>
                         <input type="text"  id="email" name="email" placeholder="example@.com"/>
-
+                        <br />
                         <label htmlFor="phone">Phone Number</label>
-                        <input type="number" id="phone" name="phone number"  placeholder="12345"/>
-                    </section>
+                        <input type="text" id="phone" name="phone number"  placeholder="12345"/>
+                    </div>
+
+                    <div>
+                        <h2></h2>
+                    </div>
                    
                 </div>
                 
