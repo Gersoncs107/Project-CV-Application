@@ -1,6 +1,10 @@
 import { useState } from "react";
 
 export default function Form(){
+
+    function submitResume(e){
+        e.prevent.default()
+    }
     
     return(
         <div>
@@ -40,6 +44,7 @@ export default function Form(){
                         <input type="text" id="position" name=" position title" />
 
                         <label htmlFor="responsibilities">Main Responsibilities</label>
+                        <input type="text" id="responsibilities" name="main responsibilities" />
                     </div>
                    
                 </div>
