@@ -3,8 +3,8 @@ import { useState } from "react";
 export default function Form(){
 
     function submitResume(e){
-        e.prevent.default()
-        console.log()
+        e.preventDefault()
+        console.log(name)
     }
     
     const [name, setName] = useState()
@@ -12,12 +12,13 @@ export default function Form(){
     return(
         <div>
             <h1>Resume</h1>
-            <form>
+            <form onSubmit={submitResume}>
                 <div>
                     <div>
                         <h2>General Information</h2>
                         <label htmlFor="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Digite seu nome"/>
+                        <input type="text" id="name" name="name" placeholder="Digite seu nome" 
+                        onChange={(e) => setName(e.target.value)}/>
                     
                         <label htmlFor="email">Email</label>
                         <input type="email"  id="email" name="email" placeholder="example@.com"/>
@@ -49,7 +50,7 @@ export default function Form(){
                         <label htmlFor="responsibilities">Main Responsibilities</label>
                         <input type="text" id="responsibilities" name="main responsibilities" />
                     </div>
-                   
+                        <input type="submit" id="btn" name="submit" />
                 </div>
                 
             </form>
