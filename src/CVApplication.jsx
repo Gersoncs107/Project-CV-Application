@@ -5,9 +5,11 @@ export default function Form(){
     function submitResume(e){
         e.preventDefault()
         console.log(name)
+        console.log(email)
     }
     
     const [name, setName] = useState()
+    const [email, setEmail] = useState()
 
     return(
         <div>
@@ -21,7 +23,8 @@ export default function Form(){
                         onChange={(e) => setName(e.target.value)}/>
                     
                         <label htmlFor="email">Email</label>
-                        <input type="email"  id="email" name="email" placeholder="example@.com"/>
+                        <input type="email"  id="email" name="email" placeholder="example@.com"
+                        onChange={(e) => setEmail(e.target.value)}/>
                         
                         <label htmlFor="phone">Phone Number</label>
                         <input type="tel" id="phone" name="phone number"  placeholder="12345"/>
