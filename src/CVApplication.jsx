@@ -4,8 +4,11 @@ export default function Form(){
 
     function submitResume(e){
         e.prevent.default()
+        console.log()
     }
     
+    const [name, setName] = useState()
+
     return(
         <div>
             <h1>Resume</h1>
