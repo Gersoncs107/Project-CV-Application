@@ -29,9 +29,17 @@ export default function Form(){
 
                         <label htmlFor="date">Date of study</label>
                         <input type="date" id="date" name="date of study"/>
-                        
+                    </div>
 
+                    <div>
+                        <h2>Practical Experience</h2>
+                        <label htmlFor="company">Company Name</label>
+                        <input type="text" id="company" name="company name" />
 
+                        <label htmlFor="position"> Position Title</label>
+                        <input type="text" id="position" name=" position title" />
+
+                        <label htmlFor="responsibilities">Main Responsibilities</label>
                     </div>
                    
                 </div>
