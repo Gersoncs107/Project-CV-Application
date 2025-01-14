@@ -7,6 +7,7 @@ export default function Form(){
         console.log(name)
         console.log(email)
         console.log(phone)
+        console.log(school)
 
     }
     
