@@ -9,6 +9,7 @@ export default function Form(){
         console.log(phone)
         console.log(school)
         console.log(title)
+        console.log(date)
 
     }
     
@@ -18,6 +19,7 @@ export default function Form(){
     const [school, setSchool] = useState()
     const [title, setTitle] = useState()
     const [date, setDate] = useState()
+    const [company, setCompany] = useState()
 
 
     return(
@@ -58,7 +60,8 @@ export default function Form(){
                     <div>
                         <h2>Practical Experience</h2>
                         <label htmlFor="company">Company Name</label>
-                        <input type="text" id="company" name="company name" />
+                        <input type="text" id="company" name="company name"
+                        onChange={(e) => setCompany(e.target.value)} />
 
                         <label htmlFor="position"> Position Title</label>
                         <input type="text" id="position" name=" position title" />
