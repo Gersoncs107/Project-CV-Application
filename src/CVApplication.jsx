@@ -46,7 +46,7 @@ export default function Form(){
 
                         <label htmlFor="title">Title of Study</label>
                         <input type="text" id="title" name="title of study" 
-                        onChange={(e) => }/>
+                        onChange={(e) => setTitle(e.target.value)}/>
 
                         <label htmlFor="date">Date of study</label>
                         <input type="date" id="date" name="date of study"/>
