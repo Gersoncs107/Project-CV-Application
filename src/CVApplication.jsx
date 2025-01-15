@@ -72,7 +72,8 @@ export default function Form(){
                         onChange={(e) => setPosition(e.target.value)}/>
 
                         <label htmlFor="responsibilities">Main Responsibilities</label>
-                        <input type="text" id="responsibilities" name="main responsibilities" />
+                        <input type="text" id="responsibilities" name="main responsibilities"
+                        onChange={(e) => setResponsibilities(e.target.value)} />
                     </div>
                         <input type="submit" id="btn" name="submit" />
                 </div>
