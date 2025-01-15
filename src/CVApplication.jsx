@@ -17,6 +17,7 @@ export default function Form(){
     const [phone, setPhone] = useState()
     const [school, setSchool] = useState()
     const [title, setTitle] = useState()
+    const [date, setDate] = useState()
 
 
     return(
