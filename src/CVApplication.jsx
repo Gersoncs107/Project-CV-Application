@@ -15,6 +15,7 @@ export default function Form(){
     const [email, setEmail] = useState()
     const [phone, setPhone] = useState()
     const [school, setSchool] = useState()
+    const [title, setTitle] = useState()
 
 
     return(
@@ -44,7 +45,8 @@ export default function Form(){
                         onChange={(e) => setSchool(e.target.value)} />
 
                         <label htmlFor="title">Title of Study</label>
-                        <input type="text" id="title" name="title of study" />
+                        <input type="text" id="title" name="title of study" 
+                        onChange={(e) => }/>
 
                         <label htmlFor="date">Date of study</label>
                         <input type="date" id="date" name="date of study"/>
