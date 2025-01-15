@@ -66,7 +66,8 @@ export default function Form(){
                         onChange={(e) => setCompany(e.target.value)} />
 
                         <label htmlFor="position"> Position Title</label>
-                        <input type="text" id="position" name=" position title" />
+                        <input type="text" id="position" name=" position title"
+                        onChange={(e) => setPosition(e.target.value)}/>
 
                         <label htmlFor="responsibilities">Main Responsibilities</label>
                         <input type="text" id="responsibilities" name="main responsibilities" />
