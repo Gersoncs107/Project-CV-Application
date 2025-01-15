@@ -12,6 +12,7 @@ export default function Form(){
         console.log(date)
         console.log(company)
         console.log(position)
+        console.log(responsibilities)
 
     }
     
