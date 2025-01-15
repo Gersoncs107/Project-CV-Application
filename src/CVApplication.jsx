@@ -10,6 +10,7 @@ export default function Form(){
         console.log(school)
         console.log(title)
         console.log(date)
+        console.log(company)
 
     }
     
@@ -20,6 +21,7 @@ export default function Form(){
     const [title, setTitle] = useState()
     const [date, setDate] = useState()
     const [company, setCompany] = useState()
+    const [position, setPosition] = useState()
 
 
     return(
