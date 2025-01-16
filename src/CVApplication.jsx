@@ -23,7 +23,9 @@ export default function Form(){
         school: "",
         title: "",
         date: "",
-        company: ""
+        company: "",
+        position: "",
+        responsibilities: ""
     })
 
     const [name, setName] = useState("")
