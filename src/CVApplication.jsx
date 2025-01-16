@@ -2,17 +2,20 @@ import { useState } from "react";
 
 export default function Form(){
 
+    const [submited, setSubmited] = useState(false)
+
     function submitResume(e){
         e.preventDefault()
-        console.log(name)
-        console.log(email)
-        console.log(phone)
-        console.log(school)
-        console.log(title)
-        console.log(date)
-        console.log(company)
-        console.log(position)
-        console.log(responsibilities)
+        console.log(data)
+        // console.log(name)
+        // console.log(email)
+        // console.log(phone)
+        // console.log(school)
+        // console.log(title)
+        // console.log(date)
+        // console.log(company)
+        // console.log(position)
+        // console.log(responsibilities)
 
     }
     
@@ -33,15 +36,15 @@ export default function Form(){
         setData((prev) => ({...prev, [name]: value}))
     }
 
-    const [name, setName] = useState("")
-    const [email, setEmail] = useState("")
-    const [phone, setPhone] = useState("")
-    const [school, setSchool] = useState("")
-    const [title, setTitle] = useState("")
-    const [date, setDate] = useState("")
-    const [company, setCompany] = useState("")
-    const [position, setPosition] = useState("")
-    const [responsibilities, setResponsibilities] = useState("")
+    // const [name, setName] = useState("")
+    // const [email, setEmail] = useState("")
+    // const [phone, setPhone] = useState("")
+    // const [school, setSchool] = useState("")
+    // const [title, setTitle] = useState("")
+    // const [date, setDate] = useState("")
+    // const [company, setCompany] = useState("")
+    // const [position, setPosition] = useState("")
+    // const [responsibilities, setResponsibilities] = useState("")
 
 
     return(
