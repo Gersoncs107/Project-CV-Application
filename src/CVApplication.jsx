@@ -28,6 +28,11 @@ export default function Form(){
         responsibilities: ""
     })
 
+    function handleChange(e){
+        const {name, value} = e.target
+        setData((prev) => ({...prev, [name]: value}))
+    }
+
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [phone, setPhone] = useState("")
