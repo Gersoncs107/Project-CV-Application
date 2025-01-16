@@ -6,7 +6,7 @@ export default function Form(){
 
     function submitResume(e){
         e.preventDefault()
-        console.log(data)
+        setSubmited(true)
         // console.log(name)
         // console.log(email)
         // console.log(phone)
