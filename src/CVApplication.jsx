@@ -16,15 +16,15 @@ export default function Form(){
 
     }
     
-    const [name, setName] = useState()
-    const [email, setEmail] = useState()
-    const [phone, setPhone] = useState()
-    const [school, setSchool] = useState()
-    const [title, setTitle] = useState()
-    const [date, setDate] = useState()
-    const [company, setCompany] = useState()
-    const [position, setPosition] = useState()
-    const [responsibilities, setResponsibilities] = useState()
+    const [name, setName] = useState("")
+    const [email, setEmail] = useState("")
+    const [phone, setPhone] = useState("")
+    const [school, setSchool] = useState("")
+    const [title, setTitle] = useState("")
+    const [date, setDate] = useState("")
+    const [company, setCompany] = useState("")
+    const [position, setPosition] = useState("")
+    const [responsibilities, setResponsibilities] = useState("")
 
 
     return(
