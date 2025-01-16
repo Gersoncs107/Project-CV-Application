@@ -52,8 +52,8 @@ export default function Form(){
                     <div>
                         <h2>General Information</h2>
                         <label htmlFor="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Digite seu nome" 
-                        onChange={(e) => setName(e.target.value)}/>
+                        <input type="text" id="name" name="name" value={setData.name}
+                        onChange={handleChange}/>
                     
                         <label htmlFor="email">Email</label>
                         <input type="email"  id="email" name="email" placeholder="example@.com"
