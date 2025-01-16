@@ -60,8 +60,8 @@ export default function Form(){
                         onChange={handleChange}/>
                         
                         <label htmlFor="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone number"  placeholder="12345"
-                        onChange={(e) => setPhone(e.target.value)}/>
+                        <input type="tel" id="phone" name="phone number"  value={setData.phone}
+                        onChange={handleChange}/>
                     </div>
 
                     <div>
