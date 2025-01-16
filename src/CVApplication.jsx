@@ -72,26 +72,26 @@ export default function Form(){
 
                         <label htmlFor="title">Title of Study</label>
                         <input type="text" id="title" name="title of study" 
-                        onChange={(e) => setTitle(e.target.value)}/>
+                        onChange={handleChange}/>
 
                         <label htmlFor="date">Date of study</label>
                         <input type="date" id="date" name="date of study"
-                        onChange={(e) => setDate(e.target.value)}/>
+                        onChange={handleChange}/>
                     </div>
 
                     <div>
                         <h2>Practical Experience</h2>
                         <label htmlFor="company">Company Name</label>
                         <input type="text" id="company" name="company name"
-                        onChange={(e) => setCompany(e.target.value)} />
+                        onChange={handleChange} />
 
                         <label htmlFor="position"> Position Title</label>
                         <input type="text" id="position" name=" position title"
-                        onChange={(e) => setPosition(e.target.value)}/>
+                        onChange={handleChange}/>
 
                         <label htmlFor="responsibilities">Main Responsibilities</label>
                         <input type="text" id="responsibilities" name="main responsibilities"
-                        onChange={(e) => setResponsibilities(e.target.value)} />
+                        onChange={handleChange} />
                     </div>
                         <input type="submit" id="btn" name="submit" />
                 </div>
