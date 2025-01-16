@@ -67,8 +67,8 @@ export default function Form(){
                     <div>
                         <h2> Educational experience</h2>
                         <label htmlFor="educational">School Name</label>
-                        <input type="text" id="educational" name="educational" 
-                        onChange={(e) => setSchool(e.target.value)} />
+                        <input type="text" id="educational" name="educational" value={setData.school}
+                        onChange={handleChange} />
 
                         <label htmlFor="title">Title of Study</label>
                         <input type="text" id="title" name="title of study" 
