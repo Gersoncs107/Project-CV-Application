@@ -56,8 +56,8 @@ export default function Form(){
                         onChange={handleChange}/>
                     
                         <label htmlFor="email">Email</label>
-                        <input type="email"  id="email" name="email" placeholder="example@.com"
-                        onChange={(e) => setEmail(e.target.value)}/>
+                        <input type="email"  id="email" name="email" value={setData.email}
+                        onChange={handleChange}/>
                         
                         <label htmlFor="phone">Phone Number</label>
                         <input type="tel" id="phone" name="phone number"  placeholder="12345"
