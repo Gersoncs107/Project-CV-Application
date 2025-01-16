@@ -71,26 +71,26 @@ export default function Form(){
                         onChange={handleChange} />
 
                         <label htmlFor="title">Title of Study</label>
-                        <input type="text" id="title" name="title of study" 
+                        <input type="text" id="title" name="title of study" value={setData.title}
                         onChange={handleChange}/>
 
                         <label htmlFor="date">Date of study</label>
-                        <input type="date" id="date" name="date of study"
+                        <input type="date" id="date" name="date of study" value={setData.date}
                         onChange={handleChange}/>
                     </div>
 
                     <div>
                         <h2>Practical Experience</h2>
                         <label htmlFor="company">Company Name</label>
-                        <input type="text" id="company" name="company name"
+                        <input type="text" id="company" name="company name" value={setData.company}
                         onChange={handleChange} />
 
                         <label htmlFor="position"> Position Title</label>
-                        <input type="text" id="position" name=" position title"
+                        <input type="text" id="position" name=" position title" value={setData.position}
                         onChange={handleChange}/>
 
                         <label htmlFor="responsibilities">Main Responsibilities</label>
-                        <input type="text" id="responsibilities" name="main responsibilities"
+                        <input type="text" id="responsibilities" name="main responsibilities" value={setData.responsibilities}
                         onChange={handleChange} />
                     </div>
                         <input type="submit" id="btn" name="submit" />
