@@ -16,6 +16,16 @@ export default function Form(){
 
     }
     
+    const [data, setData] = useState({
+        name: "",
+        email: "",
+        phone: "",
+        school: "",
+        title: "",
+        date: "",
+        company: ""
+    })
+
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [phone, setPhone] = useState("")
