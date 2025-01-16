@@ -2,23 +2,6 @@ import { useState } from "react";
 
 export default function Form(){
 
-    const [submited, setSubmited] = useState(false)
-
-    function submitResume(e){
-        e.preventDefault()
-        setSubmited(true)
-        // console.log(name)
-        // console.log(email)
-        // console.log(phone)
-        // console.log(school)
-        // console.log(title)
-        // console.log(date)
-        // console.log(company)
-        // console.log(position)
-        // console.log(responsibilities)
-
-    }
-    
     const [data, setData] = useState({
         name: "",
         email: "",
@@ -31,10 +14,28 @@ export default function Form(){
         responsibilities: ""
     })
 
+    const [submitted, setSubmitted] = useState(false)
+
     function handleChange(e){
         const {name, value} = e.target
         setData((prev) => ({...prev, [name]: value}))
     }
+
+    function submitResume(e){
+        e.preventDefault()
+        setSubmitted(true)
+        // console.log(name)
+        // console.log(email)
+        // console.log(phone)
+        // console.log(school)
+        // console.log(title)
+        // console.log(date)
+        // console.log(company)
+        // console.log(position)
+        // console.log(responsibilities)
+
+    }
+     
 
     // const [name, setName] = useState("")
     // const [email, setEmail] = useState("")
